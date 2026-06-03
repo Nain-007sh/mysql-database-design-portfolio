@@ -1,55 +1,37 @@
-# SQL Fundamentals
+# Advanced SQL Techniques
 
-
-> Building a strong foundation in SQL through a Library Management System database.
+> Applying advanced SQL concepts to solve real-world business problems using an Online Bookstore database.
 
 ---
 
 ## Project Overview
 
-This project focuses on fundamental SQL operations including database creation, data manipulation, filtering, sorting, aggregation, joins, and subqueries.
+This project focuses on advanced querying techniques and analytical SQL operations.
 
-The database models a simple Library Management System consisting of books and authors.
+The database simulates an online bookstore environment with customers, books, authors, and sales transactions.
 
 ---
 
 ## Skills Demonstrated
 
-- CREATE TABLE
-- INSERT INTO
-- SELECT Queries
-- WHERE Clause
-- DISTINCT
-- ORDER BY
+- Nested Subqueries
+- Correlated Subqueries
 - Aggregate Functions
 - GROUP BY
 - HAVING
-- INNER JOIN
-- Subqueries
+- IN & ANY Operators
+- Common Table Expressions (CTEs)
+- Business Logic Queries
 
 ---
 
-## Database Schema
+## Database Components
 
-### Authors
-
-| Column | Type |
-|----------|----------|
-| AuthorID | INT |
-| FirstName | VARCHAR |
-| LastName | VARCHAR |
-| Nationality | VARCHAR |
-
-### Books
-
-| Column | Type |
-|----------|----------|
-| BookID | INT |
-| Title | VARCHAR |
-| AuthorID | INT |
-| Genre | VARCHAR |
-| PublicationYear | INT |
-| AvailableCopies | INT |
+- Authors
+- Books
+- Customers
+- Orders
+- Order_Items
 
 ---
 
@@ -57,20 +39,18 @@ The database models a simple Library Management System consisting of books and a
 
 | File | Description |
 |--------|-------------|
-| sql-fundamentals-requirements.pdf | Assignment Instructions |
-| sql-fundamentals-solution.sql | Complete SQL Solution |
+| advanced-sql-techniques-requirements.pdf | Assignment Instructions |
+| advanced-sql-techniques-solution.sql | Complete SQL Solution |
 
 ---
 
-## Learning Outcomes
+## Key Learning Outcomes
 
-By completing this project, I gained experience in:
-
-- Designing relational tables
-- Writing SQL queries
-- Retrieving and filtering data
-- Working with aggregate functions
-- Understanding relationships between tables
+- Advanced data retrieval techniques
+- Analytical SQL development
+- Complex filtering logic
+- Business-oriented reporting
+- Performance-focused query writing
 
 ---
 
