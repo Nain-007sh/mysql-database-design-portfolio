@@ -1,67 +1,80 @@
 # SQL Fundamentals
 
-## Overview
+> Building a strong foundation in SQL through a Library Management System database.
 
-This project is based on a Library Management System database and focuses on fundamental SQL concepts used in relational databases.
+---
 
-The assignment includes creating tables, inserting sample data, and writing queries to retrieve and analyze information from the database.
+## Project Overview
+
+This project focuses on fundamental SQL operations including database creation, data manipulation, filtering, sorting, aggregation, joins, and subqueries.
+
+The database models a simple Library Management System consisting of books and authors.
+
+---
+
+## Skills Demonstrated
+
+- CREATE TABLE
+- INSERT INTO
+- SELECT Queries
+- WHERE Clause
+- DISTINCT
+- ORDER BY
+- Aggregate Functions
+- GROUP BY
+- HAVING
+- INNER JOIN
+- Subqueries
+
+---
 
 ## Database Schema
 
 ### Authors
 
-| Column      | Type    |
-| ----------- | ------- |
-| AuthorID    | INT     |
-| FirstName   | VARCHAR |
-| LastName    | VARCHAR |
+| Column | Type |
+|----------|----------|
+| AuthorID | INT |
+| FirstName | VARCHAR |
+| LastName | VARCHAR |
 | Nationality | VARCHAR |
 
 ### Books
 
-| Column          | Type    |
-| --------------- | ------- |
-| BookID          | INT     |
-| Title           | VARCHAR |
-| AuthorID        | INT     |
-| Genre           | VARCHAR |
-| PublicationYear | INT     |
-| AvailableCopies | INT     |
+| Column | Type |
+|----------|----------|
+| BookID | INT |
+| Title | VARCHAR |
+| AuthorID | INT |
+| Genre | VARCHAR |
+| PublicationYear | INT |
+| AvailableCopies | INT |
 
-## Concepts Covered
-
-* CREATE TABLE
-* INSERT INTO
-* SELECT
-* WHERE
-* DISTINCT
-* ORDER BY
-* Comparison Operators
-* Logical Operators (AND / OR)
-* Aggregate Functions
-* GROUP BY
-* HAVING
-* Basic Joins
-* Subqueries
+---
 
 ## Files
 
-| File                              | Description             |
-| --------------------------------- | ----------------------- |
-| sql-fundamentals-requirements.pdf | Assignment requirements |
-| sql-fundamentals-solution.sql     | Complete SQL solution   |
+| File | Description |
+|--------|-------------|
+| sql-fundamentals-requirements.pdf | Assignment Instructions |
+| sql-fundamentals-solution.sql | Complete SQL Solution |
+
+---
 
 ## Learning Outcomes
 
-After completing this project, you will understand:
+By completing this project, I gained experience in:
 
-* Relational database structure
-* Table creation and data insertion
-* Data filtering and sorting
-* Aggregation techniques
-* Basic data analysis using SQL
-* Working with relationships between tables
+- Designing relational tables
+- Writing SQL queries
+- Retrieving and filtering data
+- Working with aggregate functions
+- Understanding relationships between tables
 
-## Recommended Tool
+---
 
-Execute the SQL script using DBeaver connected to a MySQL database.
+## Author
+
+**Husnain**
+
+SQL Developer & Database Enthusiast
