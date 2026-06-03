@@ -1,14 +1,27 @@
 # MySQL Database Design Portfolio
 
-A collection of SQL assignments and database projects completed using MySQL and DBeaver. This repository demonstrates SQL fundamentals, advanced querying techniques, subqueries, aggregations, Common Table Expressions (CTEs), and real-world e-commerce analytics.
+![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
+![SQL](https://img.shields.io/badge/SQL-Projects-green)
+![DBeaver](https://img.shields.io/badge/DBeaver-Database%20Client-orange)
 
-## Technology Stack
+A professional collection of MySQL database projects showcasing database design, SQL development, advanced querying techniques, and business analytics using DBeaver and MySQL.
 
-* MySQL
-* DBeaver
-* SQL
-* Relational Database Design
-* Data Analysis
+---
+
+## About This Repository
+
+This repository contains three hands-on database projects designed to strengthen SQL skills ranging from foundational concepts to advanced analytical queries.
+
+### Key Skills Demonstrated
+
+- Relational Database Design
+- SQL Query Development
+- Data Analysis & Reporting
+- Advanced SQL Techniques
+- Business Intelligence Queries
+- Real-World Database Problem Solving
+
+---
 
 ## Repository Structure
 
@@ -20,69 +33,46 @@ mysql-database-design-portfolio/
 └── 03-ecommerce-database-analytics/
 ```
 
+---
+
 ## Projects
 
-### 01 - SQL Fundamentals
-
-A library management database project covering core SQL concepts including:
-
-* DDL & DML
-* SELECT
-* WHERE
-* DISTINCT
-* ORDER BY
-* Aggregate Functions
-* GROUP BY
-* HAVING
-* Basic Joins
-* Subqueries
+| Project | Focus Area |
+|----------|------------|
+| SQL Fundamentals | Core SQL Concepts |
+| Advanced SQL Techniques | Subqueries, Aggregations & CTEs |
+| Ecommerce Database Analytics | Business Intelligence & Reporting |
 
 ---
 
-### 02 - Advanced SQL Techniques
+## Technology Stack
 
-An online bookstore database project focused on advanced SQL concepts:
-
-* Nested Subqueries
-* Aggregate Functions
-* ANY / IN Operators
-* GROUP BY & HAVING
-* Common Table Expressions (CTEs)
-* Complex Filtering Logic
-* Data Analysis Queries
+| Technology | Purpose |
+|------------|---------|
+| MySQL | Database Management System |
+| DBeaver | Database Client |
+| SQL | Query Development |
 
 ---
 
-### 03 - Ecommerce Database Analytics
+## Learning Outcomes
 
-A realistic e-commerce analytics project using multiple related tables:
+✔ Database Design
 
-* Customers
-* Products
-* Categories
-* Orders
-* Order Items
-* Reviews
+✔ SQL Development
 
-Topics covered:
+✔ Query Optimization
 
-* Joins
-* Aggregations
-* Sales Analysis
-* Customer Insights
-* Revenue Reporting
-* Product Performance Analysis
-* Business Intelligence Queries
+✔ Data Analytics
 
-## Environment
+✔ Reporting & Insights
 
-All projects were developed and executed using:
+✔ Relational Database Concepts
 
-* MySQL Server
-* DBeaver Database Client
+---
 
 ## Author
 
-Database Design & SQL Portfolio
+**Husnain**
 
-Built for practicing relational database concepts and SQL query development.
+SQL Developer & Database Enthusiast
